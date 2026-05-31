@@ -102,7 +102,7 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © {new Date().getFullYear()} Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
+                        © {new Date().getFullYear()} 百草白先生 | <a className='hover:underline' href="https://www.tiktok.com/@mrbai9988" target="_blank">TikTok</a>
                     </span>
                     {config.getBoolean('rss') && <>
                         <Spliter />
